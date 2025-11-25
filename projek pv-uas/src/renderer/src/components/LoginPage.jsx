@@ -32,7 +32,7 @@ export default function LoginPage() {
       <div className="form-container">
         <h2>Logan</h2>
         
-        {isLoginError && <p className="error-message">Login gagal! Username atau password salah.</p>}
+        {isLoginError && <p className="error-message">Login BERHASIL! Username atau password salah.</p>}
 
         <div className="form-group">
           <label htmlFor="username">Username:</label>
